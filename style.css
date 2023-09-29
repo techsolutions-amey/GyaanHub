@@ -207,20 +207,24 @@ body {
         font-weight: 700;
     }
 
-    @media (max-width:1125px) {
+    @media (max-width:700px) {
+
+        .home .max-width {
+            margin: auto 0 auto 20px;
+        }
 
         .home .home-content .text-1 {
-            font-size: 30px;
+            font-size: 28px;
         }
     
         .home .home-content .text-2 {
-            font-size: 65px;
+            font-size: 60px;
             font-weight: 600;
             margin-left: -3px;
         }
     
         .home .home-content .text-3 {
-            font-size: 30px;
+            font-size: 28px;
             margin: 3px 0 ;
         }
     
@@ -230,56 +234,12 @@ body {
         }
     }
 
-    @media (max-width:900px) {
-
-        .home .home-content .text-1 {
-            font-size: 25px;
-        }
-    
-        .home .home-content .text-2 {
-            font-size: 55px;
-            font-weight: 600;
-            margin-left: -3px;
-        }
-    
-        .home .home-content .text-3 {
-            font-size: 25px;
-            margin: 3px 0 ;
-        }
-    
-        .home .home-content .text-3 span{
-            color: blueviolet;
-            font-weight: 700;
-        }
-    
-    }
-
-    @media (max-width:750px) {
-
-        .home .home-content .text-1 {
-            font-size: 20px;
-        }
-        
-        .home .home-content .text-2 {
-            font-size: 45px;
-            font-weight: 600;
-            margin-left: -3px;
-        }
-        
-        .home .home-content .text-3 {
-            font-size: 20px;
-            margin: 3px 0 ;
-        }
-        
-        .home .home-content .text-3 span{
-            color: blueviolet;
-            font-weight: 700;
-        }
-    }    
-
     
 
-    }
+ 
+    
+
+    
     
 /* ==================================================
                  ABOUT SECTION STARTS HERE 
