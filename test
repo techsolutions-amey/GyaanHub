@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About GyaanHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="about-section">
+  <div class="about-content">
+    <h2>About GyaanHub - Your Free Study Resource Hub 📚✨</h2>
+    <p>Welcome to GyaanHub! GyaanHub is a free platform dedicated to helping students like you access study materials, notes, question papers, and project ideas conveniently and at no cost. Our goal is to support your academic journey by providing a one-stop hub for educational resources.</p>
+    <h3>What We Offer:</h3>
+    <ul>
+      <li><strong>Study Materials:</strong> A collection of study materials covering various subjects to aid your learning process.</li>
+      <li><strong>Notes and Projects:</strong> Access helpful notes and project ideas to excel in your studies and inspire creativity.</li>
+      <li><strong>Question Papers:</strong> Past question papers to help you prepare and understand exam patterns.</li>
+    </ul>
+    <p><strong>Join Us Today!</strong> We believe in the power of knowledge and the importance of easily accessible educational resources. Join GyaanHub, be a part of this learning community, and make your educational journey smoother.</p>
+  </div>
+  <div class="about-image">
+    <img src="path_to_your_image.jpg" alt="GyaanHub Logo">
+  </div>
+</section>
+
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .about-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content {
+    color: #333;
+    padding: 20px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .about-content li {
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .about-section {
+      flex-direction: row;
+    }
+  
+    .about-image img {
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 10px;
+    }
+  }
+  

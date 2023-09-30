@@ -229,15 +229,58 @@ body {
         }
     
     }
-
-    
-
- 
-    
-
-    
     
 /* ==================================================
                  ABOUT SECTION STARTS HERE 
      ================================================== */
-
+     .about-section {
+        max-width: 1300px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .about-content {
+        color: #333;
+        padding: 20px;
+      }
+      
+      .about-image img {
+        max-width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      
+      .about-content h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .about-content h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .about-content ul {
+        list-style: disc;
+        margin-left: 20px;
+      }
+      
+      .about-content li {
+        margin-bottom: 10px;
+      }
+      
+      @media (min-width: 768px) {
+        .about-section {
+          flex-direction: row;
+        }
+      
+        .about-image img {
+          border-top-right-radius: 0;
+          border-bottom-left-radius: 10px;
+        }
+      }
