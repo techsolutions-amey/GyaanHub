@@ -203,7 +203,7 @@ body {
     }
 
     .home .home-content .text-3 span{
-        color: blueviolet;
+        color: rgb(255, 0, 0);
         font-weight: 700;
     }
 
@@ -228,10 +228,6 @@ body {
             margin: 3px 0 ;
         }
     
-        .home .home-content .text-3 span{
-            color: blueviolet;
-            font-weight: 700;
-        }
     }
 
     

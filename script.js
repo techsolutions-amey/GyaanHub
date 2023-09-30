@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector(".text-3 span");
-const words = ["Notes📚.", "Question Papers📝.", "Projects🖥️🪛."];
+const words = ["Notes📚.", "QP's📝.", "Projects🖥️."];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
