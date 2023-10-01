@@ -223,18 +223,18 @@ body {
 
 .home .home-content .text-1 {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .home .home-content .text-2 {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
 }
 
 .home .home-content .text-3 {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 25px;
     margin: 3px 0;
     }
 
@@ -679,13 +679,13 @@ body {
         padding: 25px 40px;
     }
     
-    h2{
+    .contact h2{
         position: relative;
         padding: 0 0 10px;
         margin-bottom: 10px;
     }
     
-    h2:after{
+    .contact h2:after{
         content: '';
         position: absolute;
         left: 50%;
