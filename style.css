@@ -745,3 +745,80 @@ body {
             height: 200px;
         }
     }
+
+
+     /* ==================================================
+                 ICON SECTION STARTS HERE 
+     ================================================== */
+     #icon {
+        text-align: center;
+    }
+    
+    .icon-list {
+        list-style: none;
+        padding: 40px;
+    }
+    
+    .icon-list li {
+        display: inline;
+        margin: 10px;
+    }
+    
+    .icon-list img {
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+        border: 2px solid #00ffff;
+        padding: 5px;
+        transition: transform 0.3s;
+    }
+    
+    .icon-list a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .icon-list img:hover {
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    
+    @media(max-width:416px){
+        
+    .icon-list li {
+        margin: 5px;
+    }
+    
+    .icon-list img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    }
+    
+    @media(max-width:334px){
+        
+        .icon-list li {
+            margin: 2.5px;
+        }
+        
+        .icon-list img {
+            width: 40px;
+            height: 40px;
+        }
+        
+        }
+    
+ /* ==================================================
+                 FOOTER SECTION STARTS HERE 
+     ================================================== */
+
+        footer {
+            text-align: center;
+            color: #fff;
+            padding: 5px 0;
+        }
+        
+        footer p {
+            font-size: 15px;
+        }
